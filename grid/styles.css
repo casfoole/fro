@@ -1,0 +1,13 @@
+.site{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto 1fr 3fr;
+}
+.pagina-titel{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.pagina-titel--ext{
+    font-family: 'Oswald', sans-serif;
+    
+}
